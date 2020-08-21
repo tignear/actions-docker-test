@@ -1,4 +1,4 @@
-name: 'test.Dockerfile'
+name: 'remote-named-dockerfile'
 description: ''
 runs: 
   using: 'docker'
