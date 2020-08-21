@@ -1,0 +1,12 @@
+name: remote-named-actions-docker-test
+on: 
+  pull_request:
+    types: [opened,edited,synchronize,reopened]
+  push: 
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - uses: ./.github/actions/remote-named-actions-docker-test
