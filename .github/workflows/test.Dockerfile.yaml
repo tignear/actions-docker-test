@@ -1,4 +1,4 @@
-name: 'test.Dockerfile'
+name: test.Dockerfile
 on: 
   pull_request:
     types: [opened,edited,synchronize,reopened]
