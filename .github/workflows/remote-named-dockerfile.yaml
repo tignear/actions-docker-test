@@ -1,4 +1,4 @@
-name: Dockerfile
+name: remote-named-dockerfile
 on: 
   pull_request:
     types: [opened,edited,synchronize,reopened]
