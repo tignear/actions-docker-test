@@ -1,0 +1,5 @@
+name: 'remote-named-actions-docker-test'
+description: ''
+runs: 
+  using: 'docker'
+  image: 'tignear/actions-docker-test'
