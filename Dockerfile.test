@@ -1,4 +1,4 @@
 FROM alpine:3.12
 
 COPY entry.sh ./entry.sh
-CMD ["./entry.sh","Dockerfile"]
+CMD ["./entry.sh","Dockerfile.test"]
